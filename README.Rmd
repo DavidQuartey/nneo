@@ -28,9 +28,9 @@ Routes and R methods
 `nneo_file()` internally
 
 
-## installation
+## Installation
 
-cran version
+CRAN version
 
 ```{r eval=FALSE}
 install.packages("nneo")
@@ -46,26 +46,26 @@ devtools::install_github("ropenscilabs/nneo")
 library("nneo")
 ```
 
-## list products
+## List Products
 
 ```{r}
 nneo_products()
 ```
 
-## list sites
+## List Sites
 
 ```{r}
 nneo_sites()
 ```
 
-## list a location
+## List a location
 
 ```{r}
 res <- nneo_location("HARV")
 names(res)
 ```
 
-## data
+## Data
 
 ```{r}
 nneo_data(product_code = "DP1.00098.001", site_code = "HEAL",
